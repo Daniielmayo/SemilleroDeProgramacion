@@ -18,7 +18,7 @@ setTimeout(() => {
 
 
 
-
+//A continuacion veremos promesas
 function request (index) {
     return fetch ("https://pokeapi.co/api/v2/pokemon/" + index)
     
@@ -35,9 +35,36 @@ async function elegirPokemon (index){
 elegirPokemon(1);
 elegirPokemon(25); */
 
-elegirPokemon(17);
+
+/* primero se ejecutan los console.log y despues se ejecuta la funcion ya que son funciones asincronas y estan quedan en espera en la pila de ejecucion */
+/* elegirPokemon(17);
 console.log("p1")
-elegirPokemon(1);       /* primero se ejecutan los console.log y despues se ejecuta la funcion ya que son funciones asincronas y estan quedan en espera en la pila de ejecucion */
+elegirPokemon(1);       
 console.log("p2")
 elegirPokemon(25);
-console.log("p3");  
+console.log("p3"); */  
+
+
+
+/* 
+A CONTINUACION veremos que se imprimer 
+1). primero los console.log por que no son asincrionos
+2).luego las promesas async & await
+3). Y por ultimo las funciones asincromas setTimeout, primero se imprimen desde el menor milisegun al mayor 
+este es el orden en el que se va a imprimir
+*/
+setTimeout (() =>{
+  elegirPokemon(1);  
+}, 0);
+
+console.log("p1");
+
+setTimeout (() =>{
+  elegirPokemon(4);  
+}, 10);
+
+console.log("p2");
+
+elegirPokemon(25);
+
+console.log("p3");
