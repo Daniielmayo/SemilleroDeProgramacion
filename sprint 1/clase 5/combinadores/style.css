@@ -1,0 +1,6 @@
+h2 + p{
+    color: aqua;
+}
+/* Aqui solo se le aplica el estilo al hermano mas cercano en este caso a todos los <p> que este
+cerca de la etiqueta <h2>, la etiqueta <p> que esta debajo del <h3> no se le aplica por que su hermano mas 
+es la equite h3 y no la etiqueta <h2> */

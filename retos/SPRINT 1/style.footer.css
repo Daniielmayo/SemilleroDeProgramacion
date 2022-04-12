@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    font-family: "Roboto";
+  }
+  
+  :root {
+    --white: #ffffff;
+    --black: #000000;
+    --graphite: #2e2e2e;
+    --whitesmoke: #f9f9f9;
+    --sm: 18px;
+    --md: 24px;
+    --lg: 30px;
+    --logo: 36px;
+    --title: 48px;
+  }
+
+
+  

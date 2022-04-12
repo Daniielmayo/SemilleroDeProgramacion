@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  font-family: "Roboto";
+}
+/* parte de codigo de destkop */
+:root {
+  --white: #ffffff;
+  --black: #000000;
+  --graphite: #2e2e2e;
+  --whitesmoke: #f9f9f9;
+  --sm: 18px;
+  --md: 24px;
+  --lg: 30px;
+  --logo: 36px;
+  --title: 48px;
+  --marginleft: 70px;
+}
+.main__titletwo {
+  display: flex;
+  color: var(--white);
+  font-size: 36px;
+  width: 500px;
+  height: 74px;
+  transform: translateY(-440px);
+  margin-left: var(--marginleft);
+}
+.main__p {
+  display: flex;
+  color: var(--white);
+  font-size: var(--sm);
+  transform: translateY(-410px);
+  width: 370px;
+  height: 74px;
+  margin-left: var(--marginleft);
+}
+
+.main__btn {
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+  border-color: #1db8ef;
+  background-color: #1db8ef;
+  width: 119px;
+  height: 30px;
+  color: var(--white);
+  font-size: var(--sm);
+  transform: translateY(-390px);
+  margin-left: var(--marginleft);
+}
+.main__banner2 {
+  display: flex;
+}
+/* .main__img--mobile2 {
+  transform: translateY(-400px);
+  display: flex;
+  justify-content: flex-start;
+} */

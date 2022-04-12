@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form action="/" method="post" id="opinion">
+        <section>
+            <label for="name">Name:</label> 
+            <!-- label es un tag de texto tiene un atributo for que sirve para conectar el label con el input es decri que cuando me pare el label o texto se lleve automaticaemnte al input -->
+            <input type="text" id="name" placeholder="Escribe aqui tu nombre" autofocus> <!-- El id del input tiene que ser igual al for del label; el placehorlder sirve para escribir un comentario dentro del input 
+             autofocus nos selecciona el nput automaticamente-->
+         </section>
+        <section>
+            <!-- los lebael que llevan mas de un input no necesita tener el atributo for -->
+            <label >selecciona tu ciudad:</label>
+                <input type="radio" name="city" value="Manizales" checked> Manizales
+                <input type="radio" name="city" value="Medellin"> Medellin
+                <input type="radio" name="city" value="Cucuta"> Cucuta
+            <!-- Los type de  tipo radio type="radio" solo nos deja seleccionar una solo opcion, para que 
+            se entienda que todo es del mismo grupo todos tienen que tener el mismo name
+            checked nos funciona para que se seleccione por defecto una opcion y el usuario la cambie
+             -->
+        </section> 
+        <section>
+            <label for=""> Pelicula Favorita</label>
+                <input type="checkbox" name="movie" value="pelicula1">Mi pobre angelito
+                <input type="checkbox" name="movie" value="pelicula2">avatar
+                <input type="checkbox" name="movie" value="pelicula3">Un sueño posible
+                <!-- checkbox nos permite seccionar mas de una opcion -->
+        </section>
+        <section>
+            <label> Elige tu cancion favorita </label>
+            <select name="canciones" id="canciones">
+                <option value="te prometo">te prometo</option>
+                <option value="algo que se quede">algo que se quede</option>
+                <option value="balas perdidas">balas perdidas</option>
+            </select>
+            <!-- select es una lista desplegable se puede agregar todos los option que sean necesarios -->
+        </section>
+        <section>
+            <button type="submit">enviar</button>
+            <button type="reset">enviar</button>
+            <button type="button">enviar</button>
+
+        </section>
+    </form>
+        <section>
+            <textarea name="" id="" cols="10" rows="4" form="opinion">Escriba su opinion</textarea>
+
+        </section>
+        <!-- el texarea debe de tener el form de la misma opcion que el id de de la primera etiqueta form
+         -->
+     
+
+</body>
+</html>

@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+.nav__enlace{
+   
+    display: inline-block;
+    background: bisque;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition:  all 0.5s ease;
+ 
+
+}
+
+
+.nav__enlace:hover{
+    background: rosybrown;
+    padding: 5px 10px;
+    border-radius: 15px;
+    
+}
+
+.nav__enlace:focus{
+    
+    background-color:rosybrown ;
+}
+
+.nav{
+   position: sticky;
+    top: 0;
+    background: plum;
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+
+@media (max-width: 600px){
+    .nav{
+        flex-direction: column;
+    }
+    .nav__enlace{
+        margin: 5px;
+    }
+}
+
+.encabezado {
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+  
+    /* padding: 20px; */
+}
+
+
+
+.encabezado__img{
+    margin-top: 40px;
+    padding-right:  40px;
+    
+}
+ 
+
+/* .encabezado__nombre{
+    background-color: bisque;
+    font-size: 33px;
+    font-family: fantasy;
+} */
+
+.contenedor{
+    margin:25px;
+    padding: 20px;
+    background-color: beige;
+}
+
+.titulo__contenido{
+    font-size: 29px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer{
+    background-color: darkgrey;
+}
+
+

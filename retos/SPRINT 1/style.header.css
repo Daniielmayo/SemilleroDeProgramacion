@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    font-family: "Roboto";
+  }
+  
+  :root {
+    --white: #ffffff;
+    --black: #000000;
+    --graphite: #2e2e2e;
+    --whitesmoke: #f9f9f9;
+    --sm: 18px;
+    --md: 24px;
+    --lg: 30px;
+    --logo: 36px;
+    --title: 48px;
+  }
+  
+  .header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .nav__desktop {
+    display: none;
+  }
+  
+  .logo {
+    width: 126px;
+    height: 27px;
+    transform: translateY(-300px);
+    font-style: normal;
+    font-weight: 900;
+    font-size: var(--logo);
+    line-height: 42px;
+    letter-spacing: -0.02em;
+    color: var(--white);
+  }
+  
+  .nav__menu {
+    display: none;
+  }
+  
+  .button_menu {
+    display: none;
+  }
+  
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .banner__tittle {
+    width: 305px;
+    height: 135px;
+    transform: translateY(-235px);
+    font-style: normal;
+    font-weight: 900;
+    font-size: var(--title);
+    line-height: 45px;
+    letter-spacing: 0.005em;
+    color: var(--graphite);
+  }
+  
+  .banner_text {
+    display: none;
+  }
+  
+  .banner__mobile1 {
+    width: 155px;
+    height: 323px;
+    transform: translateY(-180px);
+    background: url(mobile1.png);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .banner_button {
+    display: none;
+  }
+  
+  .banner__text2 {
+    display: none;
+  }
+  
+  .logos {
+    transform: translateY(-180px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .logos1 {
+    width: 367px;
+    height: 181px;
+    top: 335px;
+    left: 813px;
+    background: url(logos1.png);
+  }
+  
+  .logos2 {
+    width: 367px;
+    height: 181px;
+    top: 508px;
+    left: 813px;
+    background: url(logos2.png);
+  }
+  
