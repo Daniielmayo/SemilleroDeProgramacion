@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+.nav__enlace{
+   
+    display: inline-block;
+    background: bisque;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px 30px;
+    text-decoration: none;
+    transition:  all 0.5s ease;
+ 
+
+}
+
+
+.nav__enlace:hover{
+    background: rosybrown;
+    padding: 5px 10px;
+    border-radius: 15px;
+    
+}
+
+.nav__enlace:focus{
+    
+    background-color:rosybrown ;
+}
+
+.nav{
+   position: sticky;
+    top: 0;
+    background: plum;
+    padding:10px;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+
+@media (max-width: 600px){
+    .nav{
+        flex-direction: column;
+    }
+    .nav__enlace{
+        margin: 5px;
+    }
+}
+
+.encabezado {
+    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+  
+    /* padding: 20px; */
+}
+
+
+
+.encabezado__img{
+    margin-top: 40px;
+    padding-right:  40px;
+    
+}
+ 
+
+/* .encabezado__nombre{
+    background-color: bisque;
+    font-size: 33px;
+    font-family: fantasy;
+} */
+
+.contenedor{
+    margin:25px;
+    padding: 20px;
+    background-color: beige;
+}
+
+.titulo__contenido{
+    font-size: 29px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+   border-radius: 20px;
+   background: darkgrey;
+   margin-left: 300px;
+    
+}
+ .form__label{
+     display: flex;
+     flex-direction: column;
+     /* justify-content: center; */
+     /* gap:2px; */
+    margin-top: 10px;
+    margin-left:5px;
+   
+} 
+.form__label--input{
+    border-radius: 2px;
+}
+.form__label--p{
+    align-content: center;
+}
+.form_btn{
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 3px;
+    
+}
+.form_btn:hover{
+    background: rosybrown;
+    
+}
+.footer{
+    background-color: darkgrey;
+}
