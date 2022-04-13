@@ -9,14 +9,20 @@
   </head>
   <body>
     <nav class="nav">
-      <a href="./" target="_blank" class="nav__enlace"> PELICULAS FAVORITAS</a>
-      <a href="./" target="_blank" class="nav__enlace">ANIME FAVORITO</a>
-      <a href="./" target="_blank" class="nav__enlace"> LIBROS PREFERIDOS</a>
-      <a href="./" target="_blank" class="nav__enlace"> HOBBIES</a>
+      <a href="./" target="_blank" class="nav__enlace" onclick="peliculas()"> PELICULAS FAVORITAS</a>
+      <a href="./" target="_blank" class="nav__enlace" onclick="anime()">ANIME FAVORITO</a>
+      <a href="./" target="_blank" class="nav__enlace" onclick="libros()"> LIBROS PREFERIDOS</a>
+      <a href="./" target="_blank" class="nav__enlace" onclick="hobbies()"> HOBBIES</a>
     </nav>
 
     <header class="encabezado">
-      <a href="https://imgur.com/9kSKzJ7"
+      <a href="https://imgur.com/yO7PkcV">
+        <img src="https://i.imgur.com/yO7PkcV.jpg" title="source: imgur.com" alt="imagen de inico"
+        width="300"
+        height="230"
+        class="encabezado__img" />
+      </a>
+      <!-- <a href="https://imgur.com/9kSKzJ7"
         ><img
           src="https://i.imgur.com/9kSKzJ7.jpg"
           title="source: imgur.com"
@@ -24,7 +30,7 @@
           width="300"
           height="230"
           class="encabezado__img"
-      /></a>
+      /></a> -->
       <a href="https://imgur.com/yO7PkcV"
         ><img
           src="https://i.imgur.com/yO7PkcV.jpg"
@@ -94,7 +100,7 @@
         </ul>
       </section>
     </main>
-    <form action="" class="form">
+    <form action="" class="form" id="form">
         <h2>DEJA TU INFORMACI&Oacute;N</h2>
       <label for="nombre" class="form__label">
         <p class="form__label--p">¿Cual es tu nombre?</p>
@@ -112,7 +118,7 @@
         <p class="form__label--p">¿En que horario estudias?</p>
         <input type="time" id="horario"class="form__label--input" />
       </label>
-      <button type="submit"  class="form_btn" onclick="enviar" id="button"> ENVIAR </button>
+      <button type="submit"  class="form_btn" onclick="forumulario()" > ENVIAR </button>
     </form>
 
     <br />
