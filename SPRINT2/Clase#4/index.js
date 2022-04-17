@@ -28,7 +28,7 @@ async function elegirPokemon (index){
     const response   = await fetch("https://pokeapi.co/api/v2/pokemon/" + index);/* index me ayuda para que cuando queira llamar un pokemon no tenga que copiar codigo muchas veces si no que cuando llame la funcion solo le asigne los parametros */
     const data = await response.json(); /* en esta inea de codigo nos traemos los datos del pokemon */
      console.log(data.name) /* aqui estamos diciendo que nos imprima en consola el objeto data y el anidamos el nombre para que solo nos imprima el nombre del pokemon */
-    
+    console.log(data)
 }
 
 /* elegirPokemon(17);
@@ -53,18 +53,18 @@ A CONTINUACION veremos que se imprimer
 3). Y por ultimo las funciones asincromas setTimeout, primero se imprimen desde el menor milisegun al mayor 
 este es el orden en el que se va a imprimir
 */
-setTimeout (() =>{
-  elegirPokemon(1);  
-}, 0);
+// setTimeout (() =>{
+//   elegirPokemon(1);  
+// }, 0);
 
-console.log("p1");
+// console.log("p1");
 
-setTimeout (() =>{
-  elegirPokemon(4);  
-}, 10);
+// setTimeout (() =>{
+//   elegirPokemon(4);  
+// }, 10);
 
-console.log("p2");
+// console.log("p2");
 
-elegirPokemon(25);
+// elegirPokemon(25);
 
-console.log("p3");
+// console.log("p3");
