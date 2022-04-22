@@ -14,21 +14,27 @@
   <body>
     <header class="header">
       <!-- <img src="./src/HOSTINTRAVEL.COM.jpg" alt="Logo principal" class="header__logo" /> -->
-      <a href=""><i><H3 class="header__logo"> HOSTIN.COM </H3></i></a>
-      <input type="text" placeholder=" Search hotels" class="header__input" />
+      <a href=""><i><H3 class="header__logo"> HOSTINTRAVEL.COM </H3></i></a>
+<input type="text" placeholder=" Search hotels" class="header__input" />
       <div class="user">
-        <i class="fa-solid fa-bell"></i>
-        <i class="fa-solid fa-comment"></i>
-        <i class="fa-solid fa-user-check"></i><span>DANIEL</span>
+        <i class="fa-solid fa-bell icons"></i>
+        <i class="fa-solid fa-comment icons"></i>
+        <i class="fa-solid fa-user-check icons"></i><span>DANIEL</span>
       </div>
     </header>
-    <nav class="nav">
-    
-        <i class="fa-solid fa-house" > </i> home
-
-        
-        <a href=""><li class="nav__li">CAR RENTAL</li></a>
-        <a href=""><li class="nav__li">TOURS</li></a>
+    <div class="container--div">
+      <i class="fa-solid fa-bars menu" onclick="mostrar_ocualtar();" ></i>
+    </div>
+    <nav class="nav" id="menu">
+     
+         <a href="" >
+          <li class="nav__li" ><i class="fa-solid fa-house nav-icons icons" ></i> HOME</li>
+        </a>
+        <a href=""><li class="nav__li"><i class="fa-solid fa-plane-departure nav-icons icons" ></i> FLIGHT</li></a>
+        <a href=""><li class="nav__li"><i class="fa-solid fa-key nav-icons icons"></i>  CAR RENTAL</li></a>
+        <a href=""><li class="nav__li "><i class="fa-solid fa-map nav-icons icons"></i> TOURS</li></a>
+   
     </nav>
+   <script src="./scripmenu.js"></script>
   </body>
 </html>
