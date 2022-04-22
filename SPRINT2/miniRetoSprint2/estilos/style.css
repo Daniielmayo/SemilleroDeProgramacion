@@ -16,11 +16,15 @@
     align-items: center;
 }
 .header__logo{
-    height: 100%;
-    margin-left: 20px;
+    height:30px;
+    width:50px;
+    font-size: 25px;
+    margin-left: 10px;
+    color: #0b63cf;
 
 }
 .header__input{
+    margin-left: 50px;
     border-radius: 20px;
     height: 20px;
     width: 400px;
@@ -29,7 +33,7 @@
    
 }
 .header__input:hover{
-    background-color: #e1dfe1;
+    background-color: #a59ea57e;
 }
 .icono1{
     margin-left: 15px;
@@ -37,7 +41,7 @@
 }
 .fa-solid{
     margin-left: 30px;
-    color: #ef04d8;
+    color: #0b63cf;
 }
 .fa-solid:hover{
     color: rgb(57, 55, 55);
@@ -59,24 +63,26 @@ span:hover{
 .nav{
     display: flex;
    flex-direction: column;
-   
+ 
     list-style: none;
     background-color: rgb(57, 55, 55);
-    width: 200px;
+    width: 300px;
     height: 600px;
    }
    a{
        
        text-decoration: none;
        color: black;
+       /* width: 100%; */
    }
    .nav__li{
        color: white;
-       height: 40px;
+       height: 50px;
        align-items: center;
+       margin-left: 5px;
       
        
    }
     .nav__li:hover{
-    background-color: #ef04d8;
+    background-color: #0b63cf;
    }
