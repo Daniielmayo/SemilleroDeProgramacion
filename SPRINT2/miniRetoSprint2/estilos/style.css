@@ -29,7 +29,8 @@
     border-radius: 20px;
     height: 20px;
     width: 400px;
-    border: 0;
+    border: none;
+    outline: none;
     background-color: rgba(246, 238, 238, 0.895);
    
 }
