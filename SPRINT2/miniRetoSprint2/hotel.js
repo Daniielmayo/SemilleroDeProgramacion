@@ -19,6 +19,13 @@ const cardHotel = document.createElement("div");
      console.log(e.photo);
      imageHotel.setAttribute("alt", "imagen del hotel " + e.name);
 
+  
      hotelsImage.appendChild(cardHotel);
      cardHotel.appendChild(imageHotel);
  });
+
+
+  
+
+
+
