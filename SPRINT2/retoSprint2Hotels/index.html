@@ -11,11 +11,18 @@
       type="text/css"
       href="//fonts.googleapis.com/css?family=Pacifico"
     />
-    <link
+    <!-- <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
       rel="stylesheet"
+    /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wdth,wght@75,100;100,100&family=Encode+Sans+Semi+Expanded:wght@100&family=Miltonian+Tattoo&family=Roboto:wght@100;400;700;900&family=Square+Peg&display=swap"
+      rel="stylesheet"
     />
-    <script src="https://kit.fontawesome.com/5147b00305.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/5147b00305.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header class="encabezado" id="hotelsImage">
@@ -24,9 +31,50 @@
         alt="home"
         class="headerImg"
       />
-     
+
       <h1 class="title">Book it!</h1>
-      <button type="menu" class="butoon">menu</button>
+      <!-- <button type="menu" class="butoon">menu</button> -->
+      <i class="fa-solid fa-circle-ellipsis-vertical"></i>
+      <section id="" class="reserva">
+        <div class="selectCountry">
+          <label for="">
+            <select name="" id="" class="selectCountryOption">
+              <option value="">All countries</option>
+              <option value="">Argentina</option>
+              <option value="">Brasil</option>
+              <option value="">Chile</option>
+              <option value="">Uruguay</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="date">
+          <label for="">
+            <input type="date" name="" id="" class="dateCheckin tamaño" />
+            <input type="date" name="" id="" class="dateCheckout tamaño" />
+          </label>
+        </div>
+        <div class="precesSizes">
+          <label for="">
+            <select name="" id="" class="preces tamaño">
+              <option value="">All prices</option>
+              <option value="">$</option>
+              <option value="">$$</option>
+              <option value="">$$$</option>
+              <option value="">$$$</option>
+            </select>
+          </label>
+          <label for="">
+            <select name="" id="" class="sizes tamaño">
+              <option value="">All sizes</option>
+              <option value="">Small</option>
+              <option value="">Medium</option>
+              <option value="">Large</option>
+            </select>
+          </label>
+        </div>
+        <button>CLEAR</button>
+      </section>
     </header>
     <section id="hotelImage" class="cardHotols"></section>
     <script type="module" src="./index.js"></script>
